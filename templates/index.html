@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wallet Checker</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Wallet Checker</h1>
+        <form class="styled-form" method="post" action="/">
+            <label for="wallet">Enter your wallet address:</label>
+            <input type="text" id="wallet" name="wallet" required>
+            <input type="submit" value="Check Wallet">
+        </form>
+    </div>
+</body>
+</html>
